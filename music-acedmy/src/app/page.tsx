@@ -1,9 +1,11 @@
 
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import Instructors from "@/components/Instructors";
 import MusicSchoolTestimonial from "@/components/TestimonialCards";
 import UpComingWebinars from "@/components/UpComingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import { Inspiration } from "next/font/google";
 
 export default function Home() {
   return (
@@ -13,6 +15,7 @@ export default function Home() {
       <WhyChooseUs/>
       <MusicSchoolTestimonial/>
       <UpComingWebinars/>
+      <Instructors/>
     </main>
   );
 }
